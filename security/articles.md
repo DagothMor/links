@@ -1,3 +1,8 @@
+# Reverse
+
+#### Работаем с Cutter — основы реверса. Решение задач на реверсинг с r0от-мi. Часть 3
+https://habr.com/ru/post/513944/
+
 # Bug Bounty
 
 #### How to write a Bug Bounty report
