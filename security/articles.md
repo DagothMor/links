@@ -20,3 +20,6 @@ http://10degres.net/how-to-write-a-bug-bounty-report/
 
 #### Top 10 web hacking techniques of 2019
 https://portswigger.net/research/top-10-web-hacking-techniques-of-2019
+
+#### (Microsoft, 2018)
+https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/
