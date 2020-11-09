@@ -1,4 +1,4 @@
-# Blog's
+## Blog's
 
 http://www.1024cores.net
 
@@ -8,5 +8,5 @@ https://gamozolabs.github.io
 
 https://j00ru.vexillium.org
 
-# Forums
+## Forums
 https://wasm.in
