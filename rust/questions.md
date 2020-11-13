@@ -36,3 +36,8 @@ And the compiler cannot know if what they're pointing to is mutable or not. Thes
 Nikolay Yasinskiy, [11 нояб. 2020 г., 14:23:25]:
 I could go on about how Rc<T> plays into this and what their multi-threading friendly equivalents are, but I'll stop now unless you're interested
 ====
+
+
+Атом в математической структуре
+
+===
