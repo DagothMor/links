@@ -6,7 +6,7 @@
 ===
 почитать про borrow checker
 ===
-Тебе опять же бы прочитать про АДТ, функторы, монады))
+Тебе опять же бы прочитать про АТД, функторы, монады))
 ===
 поковырять prelude
 ===
@@ -38,7 +38,7 @@ I could go on about how Rc<T> plays into this and what their multi-threading fri
 ====
 What is?
 
- #[allow(dead_code)]
+#[derive(Debug)]
 #[derive(Debug, Clone, Copy)]
 
 ====
