@@ -50,3 +50,26 @@ Every function call is added to the Stack memory as a frame-block
 Атом в математической структуре
 
 ===
+
+https://doc.rust-lang.org/reference/attributes.html
+====
+
+ref b * 8..=26
+
+https://habr.com/ru/post/306582/
+====
+отличие append insert & push
+===
+
+  let mut out: Vec<String> = Vec::new();
+  
+    for v in data.iter(){
+        match &v{
+          ( 55..=200, 8..=26)  => out.push("Senior".to_string()),
+          _ => out.push("Open".to_string())
+        }
+    }
+    
+  return out;  
+  
+===
