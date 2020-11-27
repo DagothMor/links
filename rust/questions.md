@@ -54,7 +54,7 @@ Every function call is added to the Stack memory as a frame-block
 https://doc.rust-lang.org/reference/attributes.html
 ====
 
-ref b * 8..=26
+ref b @ 8..=26
 
 https://habr.com/ru/post/306582/
 ====
@@ -73,3 +73,28 @@ https://habr.com/ru/post/306582/
   return out;  
   
 ===
+
+Bindings
+https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html
+
+===
+
+// same meanings:
+let a = &&  10;
+let a = & & 10;
+
+// same meanings:
+let a = &&&&  mut 10;
+let a = && && mut 10;
+let a = & & & & mut 10;
+
+===
+
+String::from("Open")}).collect()
+
+===
+
+Тестирование
+https://doc.rust-lang.org/book/ch11-03-test-organization.html
+
+====
