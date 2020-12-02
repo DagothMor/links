@@ -6,7 +6,7 @@
 ===
 почитать про borrow checker
 ===
-Тебе опять же бы прочитать про АТД, функторы, монады))
+Тебе опять же бы прочитать про АТД, функторы))
 ===
 поковырять prelude
 ===
@@ -42,6 +42,9 @@ What is?
 #[derive(Debug, Clone, Copy)]
 
 ====
+преобразованием при разыменовании
+Deref coercion
+====
 Every function call is added to the Stack memory as a frame-block
 ====
 Виртуальная память приложения относительно управления виртуальной памятью с уровня ОС
@@ -52,30 +55,9 @@ Every function call is added to the Stack memory as a frame-block
 ===
 
 https://doc.rust-lang.org/reference/attributes.html
-====
 
-ref b @ 8..=26
-
-https://habr.com/ru/post/306582/
 ====
 отличие append insert & push
-===
-
-  let mut out: Vec<String> = Vec::new();
-  
-    for v in data.iter(){
-        match &v{
-          ( 55..=200, 8..=26)  => out.push("Senior".to_string()),
-          _ => out.push("Open".to_string())
-        }
-    }
-    
-  return out;  
-  
-===
-
-Bindings
-https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html
 
 ===
 
@@ -92,9 +74,11 @@ let a = & & & & mut 10;
 
 String::from("Open")}).collect()
 
-===
+====
+Как модули хъранятся в памяти
+====
 
-Тестирование
-https://doc.rust-lang.org/book/ch11-03-test-organization.html
+Command line arguments
+https://doc.rust-lang.org/book/ch12-03-improving-error-handling-and-modularity.html?highlight=lib.rs#separation-of-concerns-for-binary-projects
 
 ====

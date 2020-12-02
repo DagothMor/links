@@ -18,3 +18,6 @@ https://doc.rust-lang.org/std/collections/struct.BinaryHeap.html
 
 #### Visualizing memory management in Rust
 https://deepu.tech/memory-management-in-rust/
+
+#### Rusty Typestates - Starting Out
+https://rustype.github.io/notes/notes/rust-typestate-series/rust-typestate-part-1
